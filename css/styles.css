@@ -1,0 +1,447 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+    width: 100%;
+}
+
+body {
+    position: relative;
+    background-color: #fff ;/*#f1f0f1*/
+    color: #303030;/*#969696*/
+	margin:0;
+	font:12px/19px Arial, Helvetica, sans-serif;
+    /*font: 300 14px/20px 'Open Sans', sans-serif;*/
+}
+a {
+	text-decoration:none;
+	cursor:pointer
+}
+.clr{
+	clear:both;
+}
+.main {
+	margin:0 auto;
+	width:1120px;
+	position:relative;
+}
+/* HEADER*/
+
+header {
+	z-index:20;
+	background: #303030;
+	
+}
+header h1 {
+	z-index:10;	
+	display:block;
+	float:left;
+}
+.logo a{    
+    font-size: 26px;
+    line-height: 19px;
+}
+.logo a span.rose{    
+    color:#ed1d8c;
+}
+.logo a span.bleu{    
+    color:#058bcb;
+}
+nav{
+	float:right;
+}
+.connexion{
+	text-align: right;
+    padding: 15px 0;
+    padding-top: 21px;
+}
+.row-header nav{
+	float:right;
+	padding-bottom: 30px;
+	
+}
+/* menu haut*/
+.menu {
+	z-index:99;	
+}
+
+.menu li {
+	position: relative;
+	display: block;
+	float: left;
+	padding: 10px 15px;
+	margin-left: 11px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background: #ed1d8c;
+	list-style:none;    
+}
+.menu li a {
+	background: #ed1d8c; 
+	color: #FFF;
+	font-family:'Noto Sans', sans-serif;
+	font-size: 17px;
+	line-height: 20px;
+}
+
+/*slider*/
+ .slider{
+	 background-color: #fff;
+}
+
+.inscreption{
+	padding: 10px 0 10px 10px;
+	display:-webkit-box;
+	background-color: #303030;
+    height: 280px;
+}
+.inscreption h2{
+	color: #058bcb;
+    font-weight: 100;
+    font-size: 20px;
+}
+.ins{
+	display: block;
+	padding: 8px;
+	text-align: center;
+}
+.ins span{
+	width: 70px;
+    display: -webkit-inline-box;
+}
+.ins.bt_ins{
+	text-align:center;
+}
+.bt_register{
+	margin-left: 200px;
+}
+.bt_register input[type=submit]{
+    background-color: #058bcb;
+    color: #fff;
+    padding: 8px !important;
+    font-size: 17px;
+    font-weight: 600;
+    border: 0;
+    width: 150px !important;
+}
+.bt_register input[type=submit]:hover{
+	background-color: #ed1d8c;
+	cursor: pointer;
+}
+#form_s input{    
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: none;
+    color: #737272;
+    background-color: #faf9fa;
+    padding: 5px 10px;
+    font: 12px/20px 'Open Sans', sans-serif;
+}
+#form_s input[type=submit]{
+	background-color:#058bcb;
+	color: #fff;      
+}
+
+#form_s input[type=submit]:hover{
+	background-color: #ed1d8c;
+	cursor: pointer;
+}
+
+#form_i input{    
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 1px solid #d3d0d1;
+    color: #737272;
+    background-color: #faf9fa;
+    padding: 4px 10px;
+  
+}
+#form_i select{    
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 1px solid #d3d0d1;
+    color: #737272;
+    background-color: #faf9fa;
+    padding: 3px 5px;
+   
+}
+#form_i input[type=submit]{
+	background-color:#ed1d8c;
+	color: #fff; 
+	padding: 5px 10px;
+	border: 0px !important;
+    
+}
+/*FOOTER*/
+#footer{
+	/*background-color:#303030;*/
+}
+/*menu footer*/
+.menu_footer{
+	margin: 0;
+}
+.menu_footer li {
+	
+	float: left;
+	padding: 10px 0;
+	margin-left: 8px;
+	list-style-image:url(../images/sep.jpg);
+	list-style-position: inside;
+    font-size: 12px;
+    
+}
+.menu_footer li:first-child{ 
+    list-style: none
+}
+.menu_footer li a {
+	 
+	color: #058ed0;
+	
+}
+
+/*formulaire*/
+#form span{
+    width: 170px;
+    display: -webkit-inline-box;
+    text-align: -webkit-right;
+}
+#form input{
+    width: 215px;
+    margin-left: 5px;
+    padding: 2px 5px;
+} 
+#form input[type=radio]{
+    width: 20px;
+
+} 
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    background-color: #fff !important;
+    background-image: none;
+    color: rgb(0, 0, 0); 
+}
+.shad{
+	box-shadow: inset 0 5px 6px -3px rgba(0, 0, 0, 0.4);
+	height: 10px;
+}
+.bouton_inscription{
+	text-align: center;
+    padding-top: 65px;
+}
+.insi{
+	display: block;
+	text-align: center;
+	font-weight: 100;
+    line-height: 30px;
+    font-size: 24px;	
+}
+.insi_p{
+    display: block;
+    font-weight: 100;
+    line-height: 30px;
+    font-size: 24px;    
+}
+.pin{
+	padding-left: 95px;
+    padding-top: 68px;
+    font-size: 19px;
+    line-height: 26px;
+    color: #ed1d8c;
+    text-align: center;
+    font-weight: 600;
+}
+.bin{
+	color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 65px;
+}
+.copr{
+	float: left;
+    padding-top: 10px;
+    font-weight: bold;
+}
+#accueil{
+	background-image: url(../images/tchat_index.jpg);
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1120px;
+    min-height: 500px;
+}
+#propo{
+	background-image: url(../images/Tchatche.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 350px;
+    padding: 25px 0;
+    min-height: 420px;
+}
+#espace{
+	background-image: url(../images/espace.jpg);
+	background-repeat: no-repeat;
+    background-position: right;
+    background-size: 700px;
+    padding: 25px 0;
+    min-height: 500px;
+}
+#espace_prive{
+    background-image: url(../images/tchat_private.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 630px;
+    padding: 25px 0;
+    min-height: 500px;
+}
+#register{
+	background-image: url(../images/tchat_register.jpg);
+	background-repeat: no-repeat;
+    background-position: right;
+    padding: 25px 0;
+    min-height: 500px;
+}
+#connexion{
+	background-image: url(../images/tchat_register.jpg);
+	background-repeat: no-repeat;
+    background-position: right;
+    padding: 25px 0;
+    min-height: 500px;
+}
+.dec{
+	float: right;
+}
+h2.titre_registre{
+    margin-top: 0px;
+    font-size: 22px;
+    /*color: #ff0198;*/
+}
+.connexion a{
+	background-color: #058bcb;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+.connexion a:hover{
+   	background-color: #ed1d8c;
+}
+.dec a{
+	background-color: #ed1d8c;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+.dec a:hover{
+	background-color: #058bcb;
+}
+.tchat{
+	width: 30%;
+    margin-left: 20px;
+	float: left;
+}
+.row_tchat{
+	margin-bottom: 10px;
+
+}
+.date_tchat{
+	text-align: right;
+    padding-right: 20px;
+}
+.pseudo_tchat{
+        width: 18%;
+    margin-right: 10px;
+    float: left;
+    border: 1px rgba(237, 29, 140, 0.36) solid;
+    padding-left: 2px;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 12px;
+}
+.message_tchat{
+	border: 1px #a9a9a9 solid;
+    padding: 3px 10px;
+    border-radius: 10px;
+    width: 68%;
+    float: left;
+}
+.row_membre{
+    width: 10%;
+    height: 500px;
+    overflow: auto;
+    float: left;
+}
+.titre_mem{
+    margin-top: 0;
+    color: #058bcb;
+
+}
+.tchat_text textarea{
+    width: 100%;
+}
+#form_s .tchat_pseu input{
+    font-size: 20px;
+    font-weight: 600;
+    color: #ed1d8c;
+    background: none;
+    padding-top: 0;
+}
+.tchat_env{
+    margin: 10px 0;
+        margin-left: 271px;
+}
+.row_membre a{
+    color: #303030;
+    text-decoration: underline;
+}
+.row_membre a:hover{
+    color: #ed1d8c;
+}
+.bloc_nb_v{
+    color: #ffffff;
+    padding: 5px 10px;
+    float: right;
+}
+.nb_v{
+    font-size: 18px;
+    padding-left: 5px;
+    font-weight: 100;
+    float: left;
+}
+.bloc_nb_v2{
+    margin-right: 50px;
+    padding: 5px 10px;
+    float: left;
+}
+.nb_v2{
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-left: 10px;
+    
+} 
+.bolc_nbs{
+    bottom: 0;
+    position: absolute;
+    margin-left: 320px;
+
+}
+.flt{
+    float: left;
+}   
+.page{
+    text-align: center;
+}
+
+.nonlu{
+    background-color: #ed1d8c;
+}
+
+
+
+
+
